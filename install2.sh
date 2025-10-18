@@ -22,6 +22,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 sleep 10 # wait for 30 secs for the ec2 instance to get from initializing state to running state
 
-mkdir -p /home/ubuntu/TerraformText
+mkdir -p /home/ubuntu/TerraformGitText
 touch /home/ubuntu/TerraformText/.env /home/ubuntu/TerraformText/docker-compose.yml
 echo "you are good to go"
